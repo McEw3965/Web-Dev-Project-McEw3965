@@ -2,7 +2,8 @@ body {
     width: 960px;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    color: #91818A;
+    color: #8FA583;
+    background-color:#FFFFFF;
 }
 
 header,
@@ -16,9 +17,14 @@ div {
 }
 
 header {
+    height: 100px;
     display: flex;
-    border: solid 3px #7CC6FE;
-    box-shadow: 0px 0px 0px 4px #307351;
+    border: solid 3px #93C11F;
+    box-shadow: 0px 0px 0px 4px #12642D;
+}
+
+h1 {
+    margin-top: 35px;
 }
 
 nav {
