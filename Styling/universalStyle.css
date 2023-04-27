@@ -40,6 +40,14 @@ nav {
     position:absolute;
 }
 
+.container {
+    display: flex;
+}
+
+#map {
+    float: right;
+}
+
 .navigationMenu {
     padding-left: 20px;
 }
