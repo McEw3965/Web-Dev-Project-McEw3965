@@ -6,5 +6,31 @@
     width: 80px;
     background-color: #93C11F;
     border-radius: 15px;
+}
 
+#donate p {
+    font-size: 10px;
+    margin-top: 0px;
+}
+
+#donate h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+#donateBtn {
+    margin-top: 10px;
+}
+
+section {
+    border-top:#12642D 3px solid;
+    border-bottom:#12642D 3px solid;
+
+    color: #12642D;
+
+    background-image: url(../Media/donateBackgroundImage.jpeg);
+
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100% 400px; 
 }
