@@ -7,13 +7,13 @@ body {
     background-color: #FFFFFF;
 }
 
-header,
+ header,
 article,
 aside,
 footer,
 section,
 div {
-    border: 1px solid black;
+   /* border: 1px solid black; */
     margin: 10px;
     padding: 10px;
 }
