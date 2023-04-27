@@ -1,0 +1,10 @@
+#welcomeMessage {
+    border-bottom: solid 3px #12642D;
+}
+
+#donationValues button {
+    width: 80px;
+    background-color: #93C11F;
+    border-radius: 15px;
+
+}
