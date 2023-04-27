@@ -48,6 +48,14 @@ nav {
     float: right;
 }
 
+p {
+    margin-bottom: 30px;
+}
+
+#careCentre {
+    float: left;
+}
+
 .navigationMenu {
     padding-left: 20px;
 }
