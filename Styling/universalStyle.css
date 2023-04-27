@@ -30,13 +30,13 @@ h1 {
 
 summary {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 nav {
     float: right;
     margin-bottom: 0px;
-    margin-left: 92%;
+    margin-left: 90%;
     position:absolute;
 }
 
