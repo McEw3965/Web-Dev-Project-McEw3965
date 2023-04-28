@@ -20,6 +20,19 @@
 
 #donateBtn {
     margin-top: 10px;
+    width: 150px;
+    margin-left: 425px;
+}
+
+#donationDisplay {
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    font-size: 36px;
+    display: flex;
+    align-content: center;
+    align-items: center;
 }
 
 section {
@@ -28,6 +41,12 @@ section {
 
     color: #12642D;
 
+    display: grid;
+
+    grid-template-columns: 1000px;
+    grid-template-rows: 100px;
+    
+
    /* background-image: url(../Media/donateBackgroundImage.jpeg);
 
     background-position: center; 
@@ -35,8 +54,3 @@ section {
     background-size: 100% 400px; */
 }
 
-section input {
-    border-radius: 30px;
-    height: 150px;
-    width: 250px;
-}
