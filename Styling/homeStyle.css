@@ -35,6 +35,11 @@
     align-items: center;
 }
 
+#howToHelp {
+    border-right:rgba(18, 100, 45, 0.5) 3px solid;
+    opacity: 50%;
+}
+
 section {
     border-top:#12642D 3px solid;
     border-bottom:#12642D 3px solid;
@@ -54,8 +59,13 @@ section {
     background-size: 100% 400px; */
 }
 
+.carousel {
+    float: left;
+}
+
 .carousel img {
     border: solid 3px #93C11F;
     box-shadow: 0px 0px 0px 4px #12642D;
 }
+
 
