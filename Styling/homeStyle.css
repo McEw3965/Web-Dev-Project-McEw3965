@@ -54,3 +54,8 @@ section {
     background-size: 100% 400px; */
 }
 
+.carousel img {
+    border: solid 3px #93C11F;
+    box-shadow: 0px 0px 0px 4px #12642D;
+}
+
