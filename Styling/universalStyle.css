@@ -21,10 +21,17 @@ div {
 header {
     height: 100px;
     display: flex;
-    border: solid 3px #93C11F;
-    box-shadow: 0px 0px 0px 4px #12642D;
-    border-bottom: none;
+    border: solid 10px #93C11F;
+    box-shadow:  0px 20px #12642D, 0px -5px #12642D, 0px 0px #12642D, -0px 0px 0px 10.5px #12642D;
     margin-bottom: none;
+}
+
+header img {
+    margin-right: 60px;
+}
+
+h1 {
+    margin: 12px 0px;
 }
 
 section {
@@ -35,21 +42,18 @@ section {
     margin: 0px 45px;
 }
 
-h1 {
-    margin: 35px 100px 0px 50px;
-}
 
 summary {
     font-weight: bold;
     font-size: 20px;
 }
 
-nav {
+/*nav {
     float: right;
     margin-bottom: 0px;
     margin-left: 90%;
     position: absolute;
-}
+} */
 
 .container {
     display: flex;
@@ -62,8 +66,6 @@ nav {
 p {
     margin-bottom: 30px;
 }
-
-
 
 #careCentre {
     float: left;
