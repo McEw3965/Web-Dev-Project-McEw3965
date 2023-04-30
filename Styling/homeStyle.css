@@ -1,6 +1,7 @@
 nav ul {
     list-style-type: none;
     padding: 0px 0px;
+    margin:0px;
 }
 
 nav ul li {
@@ -89,7 +90,7 @@ section {
 }
 
 .accordion-button:not(.collapsed) {
-    background-color:#93C11F;;
+     background-color:#12642D;
   }
 
 .accordion-body {
@@ -113,6 +114,12 @@ section {
     text-align: center;
     height: 20px;
 }
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+    border: none;
+  }
 
 .accordion {
     padding: 0px;
