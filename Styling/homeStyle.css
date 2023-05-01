@@ -50,7 +50,6 @@ nav a:hover {
 #donationDisplay {
     border: 1px solid black;
     width: 100px;
-    height: 100px;
     margin: auto;
     font-size: 36px;
     display: flex;
@@ -63,15 +62,16 @@ nav a:hover {
 }
 
 section {
-    border-top:#12642D 3px solid;
-    border-bottom:#12642D 3px solid;
-
     color: #12642D;
 
     display: grid;
 
     grid-template-columns: 1000px;
     grid-template-rows: 100px;
+}
+
+main {
+    border-bottom: 3px solid #12642D;
 }
 
 .accordion-item {
