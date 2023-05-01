@@ -115,7 +115,7 @@ section {
     height: 20px;
 }
 
-.accordion-button:focus {
+.accordion-button:focus{
     box-shadow: none;
     outline: none;
     border: none;
@@ -139,13 +139,14 @@ accordion-button.collapsed {
 
 .accordion button {
     font-weight:bold;
-    font-size: 15px;
+    font-size: 25px;
     color: white;
     background-color:#12642D;
     margin-left: 0px;
     border-radius: none;
     width: 100%;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
+    padding-top: 0px;
 }
 
 .accordion-item {
