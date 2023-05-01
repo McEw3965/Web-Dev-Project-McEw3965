@@ -34,7 +34,7 @@ h1 {
     margin: 12px 0px;
 }
 
-article h2 {
+h2 {
     font-weight: bold;
 }
 
@@ -70,12 +70,26 @@ p {
 footer {
     padding-bottom: 0px;
     border-top: 3px #12642D solid;
+    background-color: #12642D;
+    color: white;
+    margin: 5px 0px 0px 0px;
+    border-top:#93C11F solid 10px;
 }
 
 footer p {
     font-size: 10px;
     text-align: center;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 0px 0px;
+}
+
+footer h4 {
+    padding-right: 1350px;
+    font-size: 20px;
+}
+
+footer img {
+    width: 225px;
+    height: 100px;
 }
 
 button:hover {
