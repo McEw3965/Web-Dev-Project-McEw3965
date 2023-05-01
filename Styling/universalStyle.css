@@ -69,10 +69,15 @@ p {
 
 footer {
     padding-bottom: 0px;
+    border-top: 3px #12642D solid;
 }
 
 footer p {
     font-size: 10px;
     text-align: center;
     margin: 0px 0px 10px 0px;
+}
+
+button:hover {
+    opacity: 75%;
 }
