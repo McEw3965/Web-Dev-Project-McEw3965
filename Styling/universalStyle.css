@@ -3,7 +3,7 @@ body {
     height: 100%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
-    color: #8FA583;
+    color: black;
     background-color: #FFFFFF;
 }
 
@@ -34,6 +34,10 @@ h1 {
     margin: 12px 0px;
 }
 
+article h2 {
+    font-weight: bold;
+}
+
 section {
     text-align: center;
 }
@@ -42,18 +46,6 @@ section {
     margin: 0px 45px;
 }
 
-
-summary {
-    font-weight: bold;
-    font-size: 20px;
-}
-
-/*nav {
-    float: right;
-    margin-bottom: 0px;
-    margin-left: 90%;
-    position: absolute;
-} */
 
 .container {
     display: flex;
