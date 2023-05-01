@@ -44,7 +44,6 @@ nav a:hover {
 #donateBtn {
     margin-top: 10px;
     width: 150px;
-    margin-left: 425px;
 }
 
 #donationDisplay {
@@ -52,9 +51,6 @@ nav a:hover {
     width: 100px;
     margin: auto;
     font-size: 36px;
-    display: flex;
-    align-content: center;
-    align-items: center;
 }
 
 #howToHelp {
@@ -63,11 +59,6 @@ nav a:hover {
 
 section {
     color: #12642D;
-
-    display: grid;
-
-    grid-template-columns: 1000px;
-    grid-template-rows: 100px;
 }
 
 main {
