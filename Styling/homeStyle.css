@@ -74,9 +74,10 @@ iframe {
 }
 
 #contact {
-    text-align: left;
+    text-align: center;
     border-top:#12642D 3px solid; 
-    background-color:lightgrey;
+
+    background-image: url(../Media/careCentre.jpg);
 }
 
 #emailInput {
@@ -94,6 +95,13 @@ form ul li {
 
 section form input {
     margin-bottom: 15px;
+}
+
+#messageInput {
+    height: 175px;
+    width: 250px;
+    padding: 10px;
+    resize: none;
 }
 
 /*Peronal styling for the bootstrap accordion. Overwrites the styling provided by the bootsrap library */
