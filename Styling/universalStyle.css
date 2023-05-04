@@ -78,6 +78,15 @@ footer {
     border-top:#93C11F solid 10px;
 }
 
+footer h2 {
+    color: white;
+}
+
+footer h5 {
+    font-size: 12px;
+}
+
+
 footer p {
     font-size: 10px;
     text-align: center;
@@ -85,7 +94,7 @@ footer p {
 }
 
 footer h4 {
-    padding-right: 1350px;
+    padding-right: 100px;
     font-size: 20px;
 }
 
