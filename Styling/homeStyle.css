@@ -206,21 +206,20 @@ accordion-button.collapsed {
 #slider {
     overflow: hidden;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 1fr);
     width: 100%;
     height: 400px;
 }
 
  #slide1, #slide2, #slide3, #slide4 {
-    height: 200px;
+    height: 100px;
     width: 100%;
     background-size: cover;
     background-position: center;
-    animation: slide 10s infinite;
   } 
 
-/* @keyframes slide {
+ @keyframes slide {
     0%, 20%, 100% {
         transform: translateX(0);
         animation-timing-function: ease;
@@ -235,26 +234,41 @@ accordion-button.collapsed {
         animation-timing-function: ease;
     }
 }
-*/
+
+#slide1 img {
+    width: 100%;
+    height: 100px;
+    animation: slide 12s infinite;
+}
 
 #slide1 {
-    background-image: url(../Media/careCentre.jpg);
-    animation-delay: 0s;
+    /*background-image: url(../Media/careCentre.jpg);*/
+    display:flex;
+  /*  animation: slide 12s infinite;
+    animation-delay: 0s; */
+}
+
+#slide1 p {
+    animation: slide 12s infinite;
+    animation-delay: 6s;
 }
 
 #slide2 {
     background-image: url(../Media/donateBackgroundImage.jpeg);
-    animation-delay: 0s;
+    animation: slide 9s infinite;
+    animation-delay: 3s;
 }
 
 #slide3 {
     background-image: url(../Media/donationImg.jpg);
-    animation-delay: 0s;
+    animation: slide 6s infinite;
+    animation-delay: 6s;
 }
 
 #slide4 {
     background-image: url(../Media/logo.png);
-    animation-delay: 0s;
+    animation: slide 3s infinite;
+    animation-delay: 9s;
 }
 
 
