@@ -40,8 +40,18 @@ h2 {
     color:#12642D;
 }
 
+form input, form textarea {
+    border: none;
+    border-radius: 20px;
+
+}
+
 section {
     text-align: center;
+}
+
+section label {
+    font-weight: bold;
 }
 
 #donationValues button {
