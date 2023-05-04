@@ -194,4 +194,61 @@ accordion-button.collapsed {
     border-bottom-right-radius: 0px;
 }
 
+/*Slider styling*/
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    height: 750px;
+    width: 100%;
+}
+
+#slide1, #slide2, #slide3, #slide4 {
+    position:sticky;
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    animation: slide 10s infinite;
+  }
+
+@keyframes slide {
+    0%, 20%, 100% {
+        transform: translateX(0);
+        animation-timing-function: ease;
+    }
+
+    25% {
+        transform: translateX(-100%);
+        animation-timing-function: step-end;
+    }
+    95% {
+        transform: translateX(100%);
+        animation-timing-function: ease;
+    }
+}
+
+#slide1 {
+    background-image: url(../Media/careCentre.jpg);
+    animation-delay: 0s;
+}
+
+#slide2 {
+    background-image: url(../Media/donateBackgroundImage.jpeg);
+    animation-delay: -2s;
+}
+
+#slide3 {
+    background-image: url(../Media/donationImg.jpg);
+    animation-delay: -4s;
+}
+
+#slide4 {
+    background-image: url(../Media/logo.png);
+    animation-delay: -6s;
+}
+
+
+
+
 
