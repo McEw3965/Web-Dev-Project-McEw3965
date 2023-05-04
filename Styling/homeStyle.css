@@ -73,6 +73,31 @@ iframe {
     padding: 0px;
 }
 
+#contact {
+    text-align: left;
+    border-top:#12642D 3px solid; 
+    background-color:lightgrey;
+}
+
+#emailInput {
+    width: 100px;
+}
+
+form ul {
+    padding-left: 0px;
+}
+
+form ul li {
+    list-style-type: none;
+    margin: 5px;
+} 
+
+section form input {
+    margin-bottom: 15px;
+}
+
+/*Peronal styling for the bootstrap accordion. Overwrites the styling provided by the bootsrap library */
+
 .accordion-item {
     border: none;
     padding: 0px;
