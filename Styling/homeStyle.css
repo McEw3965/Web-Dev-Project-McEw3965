@@ -227,6 +227,10 @@ accordion-button.collapsed {
     .slider {
         height: 800px;
     }
+    #£5Button, #£10Button, #£25Button {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
   }
   
 
