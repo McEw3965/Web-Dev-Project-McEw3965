@@ -1,3 +1,5 @@
+/*Navigation Styling*/
+
 nav ul {
     list-style-type: none;
     padding: 0px 0px;
@@ -26,6 +28,8 @@ nav a:hover {
     margin-right: 125px;
     margin-bottom: 0px;
 }
+
+/*Donation Section Styling*/
 
 #donationValues button {
     width: 80px;
@@ -73,14 +77,12 @@ iframe {
     padding: 0px;
 }
 
+/* Contact Section Styling */
+
 #contact {
     text-align: center;
     border-top:#12642D 3px solid; 
     background-color: lightgray;
-}
-
-#emailInput {
-    width: 100px;
 }
 
 form ul {
@@ -94,6 +96,7 @@ form ul li {
 
 section form input {
     margin-bottom: 15px;
+    width: 200px;
 }
 
 #messageInput {
@@ -103,11 +106,6 @@ section form input {
     resize: none;
 }
 
-#imageGrid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 10px;
-}
 
 /*Peronal styling for the bootstrap accordion. Overwrites the styling provided by the bootsrap library */
 
@@ -204,29 +202,51 @@ accordion-button.collapsed {
 /*Slider styling*/
 
 #slider {
+    border-top: 3px #12642D solid;
+    border-bottom: 3px #12642D solid;
     overflow: hidden;
-    display:grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     width: 100%;
-    height: 400px;
+    height: 950px;
 }
-
- #slide1, #slide2, #slide3, #slide4 {
-    height: 100px;
-    width: 100%;
+ #slide1, #slide2  {
+    height: 900px;
+    width: 95%;
     background-size: cover;
     background-position: center;
-  } 
+    background-image: url(../Media/careCentre.jpg);
+    display:flex;
+    position: absolute;
+    animation: slide 20s infinite;
+    animation-delay: 0s; 
+}
+
+@media screen and (max-width: 1080px) {
+    #slide1, #slide2 {
+      height: 750px;
+    }
+    .slider {
+        height: 800px;
+    }
+    #£5Button, #£10Button, #£25Button {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+  }
+  
+
+#slide2 {
+    animation-delay: -10s;
+    background-image: url(../Media/careHousingStats.jpg);
+
+}
 
  @keyframes slide {
-    0%, 20%, 100% {
+    0%, 45%, 100% {
         transform: translateX(0);
         animation-timing-function: ease;
     }
-
-    25% {
-        transform: translateX(-100%);
+    50% {
+        transform: translateX(-150%);
         animation-timing-function: step-end;
     }
     95% {
@@ -234,45 +254,3 @@ accordion-button.collapsed {
         animation-timing-function: ease;
     }
 }
-
-#slide1 img {
-    width: 100%;
-    height: 100px;
-    animation: slide 12s infinite;
-}
-
-#slide1 {
-    /*background-image: url(../Media/careCentre.jpg);*/
-    display:flex;
-  /*  animation: slide 12s infinite;
-    animation-delay: 0s; */
-}
-
-#slide1 p {
-    animation: slide 12s infinite;
-    animation-delay: 6s;
-}
-
-#slide2 {
-    background-image: url(../Media/donateBackgroundImage.jpeg);
-    animation: slide 9s infinite;
-    animation-delay: 3s;
-}
-
-#slide3 {
-    background-image: url(../Media/donationImg.jpg);
-    animation: slide 6s infinite;
-    animation-delay: 6s;
-}
-
-#slide4 {
-    background-image: url(../Media/logo.png);
-    animation: slide 3s infinite;
-    animation-delay: 9s;
-}
-
-
-
-
-
-
