@@ -1,3 +1,5 @@
+/*Navigation Styling*/
+
 nav ul {
     list-style-type: none;
     padding: 0px 0px;
@@ -26,6 +28,8 @@ nav a:hover {
     margin-right: 125px;
     margin-bottom: 0px;
 }
+
+/*Donation Section Styling*/
 
 #donationValues button {
     width: 80px;
@@ -73,14 +77,12 @@ iframe {
     padding: 0px;
 }
 
+/* Contact Section Styling */
+
 #contact {
     text-align: center;
     border-top:#12642D 3px solid; 
     background-color: lightgray;
-}
-
-#emailInput {
-    width: 100px;
 }
 
 form ul {
@@ -94,6 +96,7 @@ form ul li {
 
 section form input {
     margin-bottom: 15px;
+    width: 200px;
 }
 
 #messageInput {
@@ -103,11 +106,8 @@ section form input {
     resize: none;
 }
 
-#imageGrid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    margin: 10px;
-}
+
+
 
 /*Peronal styling for the bootstrap accordion. Overwrites the styling provided by the bootsrap library */
 
