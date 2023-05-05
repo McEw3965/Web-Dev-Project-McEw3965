@@ -230,3 +230,13 @@ nav a {
 nav a:hover {
     opacity: 75%;
 }
+
+/*Button Styling*/
+
+button {
+    border: black 2px solid;
+    border-radius: 20px;
+    height: 30px;
+    width: 165px;
+    background-color: #93C11F;
+}
