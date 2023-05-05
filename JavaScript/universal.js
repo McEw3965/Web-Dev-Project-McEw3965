@@ -28,11 +28,13 @@ function animationPause() {
     document.getElementById("slide1").style.animationPlayState = 'paused';
     document.getElementById("slide2").style.animationPlayState = 'paused';
     document.getElementById("slide3").style.animationPlayState = 'paused';
+    document.getElementById("pause").innerHTML = "Play Animation";
     isPaused = 1;
     } else if (isPaused === 1) {
         document.getElementById("slide1").style.animationPlayState = 'running';
         document.getElementById("slide2").style.animationPlayState = 'running';
         document.getElementById("slide3").style.animationPlayState = 'running';
+        document.getElementById("pause").innerHTML = "Pause Animation";
         isPaused = 0;
     } 
 } 
