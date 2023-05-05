@@ -1,24 +1,4 @@
-/*Navigation Styling*/
 
-nav ul {
-    list-style-type: none;
-    padding: 0px 0px;
-    margin:0px;
-}
-
-nav ul li {
-    background-color:#12642D;
-    font-size: 20px;
-}
-
-nav a {
-    color: white;
-    text-decoration: none;
-}
-
-nav a:hover {
-    opacity: 75%;
-}
 
 #welcomeMessage {
     border-bottom: solid 3px #12642D;
@@ -107,98 +87,6 @@ section form input {
 }
 
 
-/*Peronal styling for the bootstrap accordion. Overwrites the styling provided by the bootsrap library */
-
-.accordion-item {
-    border: none;
-    padding: 0px;
-    margin: 0px;
-}
-
-.accordion-header {
-    text-align: center;
-    border-radius: 0px;
-}
-
-.accordion-button:not(.collapsed) {
-     background-color:#12642D;
-  }
-
-.accordion-body {
-    text-align: center;
-    margin:0px;
-    padding:0px;
-    padding-left: 0px;
-    width: 100%;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    color: white;
-    font-weight:bold;
-}
-
-.accordion-collapse.collapse.show {
-    padding: 0px;
-    margin: 0px;
-}
-.accordion-button{
-    display:block;
-    text-align: center;
-    height: 20px;
-}
-
-.accordion-button:focus{
-    box-shadow: none;
-    outline: none;
-    border: none;
-  }
-
-.accordion {
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-}
-
-accordion-button.collapsed {
-    padding: 0px;
-    color: white;
-}
-
-.accordion-collapse {
-    margin: 0px;
-    padding: 0px;
-}
-
-.accordion button {
-    font-weight:bold;
-    font-size: 25px;
-    color: white;
-    background-color:#12642D;
-    margin-left: 0px;
-    border-radius: none;
-    width: 100%;
-    padding-bottom: 35px;
-    padding-top: 0px;
-}
-
-.accordion-item {
-    border-radius: 0px;
-    border-top-left-radius: 0px;
-    border-top-right-radius: none;
-}
-
-.accordion-item:first-of-type .accordion-button {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-}
-
-
-.accordion-item:last-of-type .accordion-button.collapsed {
-    border-top-left-radius: 0px;
-    border-top-right-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-
 /*Slider styling*/
 
 #slider {
@@ -263,10 +151,14 @@ accordion-button.collapsed {
     }
 }
 
-#pause {
-    border: none;
+button {
+    border: black 2px solid;
     border-radius: 20px;
     height: 30px;
     width: 165px;
     background-color: #93C11F;
+}
+
+#pause {
+    margin: 8px;
 }
