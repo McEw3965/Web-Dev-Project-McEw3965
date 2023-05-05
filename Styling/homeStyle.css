@@ -204,16 +204,12 @@ accordion-button.collapsed {
 #slider {
     border-top: 3px #12642D solid;
     border-bottom: 3px #12642D solid;
-}
-
-
-#slider {
     overflow: hidden;
     width: 100%;
-    height: 800px;
+    height: 950px;
 }
  #slide1, #slide2  {
-    height: 750px;
+    height: 900px;
     width: 95%;
     background-size: cover;
     background-position: center;
@@ -223,6 +219,16 @@ accordion-button.collapsed {
     animation: slide 20s infinite;
     animation-delay: 0s; 
 }
+
+@media screen and (max-width: 1080px) {
+    #slide1, #slide2 {
+      height: 750px;
+    }
+    .slider {
+        height: 800px;
+    }
+  }
+  
 
 #slide2 {
     animation-delay: -10s;
