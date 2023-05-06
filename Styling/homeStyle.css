@@ -130,13 +130,13 @@ section form input {
 }
 
 #slide2 {
-    animation-delay: -7s;
+    animation-delay: -8s;
     background-image: url(../Media/Food.jpeg);
     padding: 50px;
 }
 
 #slide3 {
-    animation-delay: -14s;
+    animation-delay: -15s;
     background-image: url(../Media/helpingPeople.jpg);
     padding: 85px;
 }
