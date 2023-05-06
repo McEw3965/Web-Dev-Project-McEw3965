@@ -107,10 +107,8 @@ section form input {
     width: 95%;
     background-size: cover;
     background-position: center;
-    background-image: url(../Media/givingFood.jpeg);
     position: absolute;
     animation: slide 21s infinite;
-    animation-delay: 0s;
     animation-play-state: running;
 }
 
@@ -123,19 +121,34 @@ section form input {
     list-style-type:none;
 }
 
+#slide1 {
+    animation-delay: 0s;
+    background-image: url(../Media/givingFood.jpeg);
+    padding: 150px;
+}
+
+#slide2 {
+    animation-delay: -7s;
+    background-image: url(../Media/Food.jpeg);
+    padding: 50px;
+}
+
+#slide3 {
+    animation-delay: -14s;
+    background-image: url(../Media/helpingPeople.jpg);
+    padding: 85px;
+}
+
 #slide1:hover {
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../Media/givingFood.jpeg);
-    padding: 150px;
 }
 
 #slide2:hover {
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../Media/Food.jpeg);
-    padding: 50px;
 }
 
 #slide3:hover {
     background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../Media/helpingPeople.jpg);
-    padding: 85px;
 }
 
 #slide1:hover p, #slide2:hover p, #slide2:hover ul, #slide2:hover li, #slide3:hover p{
@@ -161,15 +174,6 @@ section form input {
     }
 }
 
-#slide2 {
-    animation-delay: -7s;
-    background-image: url(../Media/Food.jpeg);
-}
-
-#slide3 {
-    animation-delay: -14s;
-    background-image: url(../Media/helpingPeople.jpg);
-}
 
 @keyframes slide {
 
